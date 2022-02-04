@@ -1,0 +1,171 @@
+body {
+    background-color: #e6ecf0;
+    padding-top: 54px;
+}
+
+a {
+    color: rgb(1, 2, 3);
+
+}
+
+@media screen and (min-width: 1236px) {
+    .container {
+        width: 1190px;
+    }
+}
+
+
+.logo {
+    padding-left: 20px;
+    color: dodgerblue;
+    font-size: 30px;
+  
+        
+}
+
+
+
+.nav-item {
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.side-main {
+    border-right: 1px ridge;
+    
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-left: 20%;
+    background-color: $color-light;
+    z-index: - 1;
+    padding-left: 150px;
+    
+{
+    font-weight: 500;
+    color: $color-dark;
+    font-size: 20px;
+}
+
+.write-twit {
+    margin-top: 60px;
+    padding: 20px 10px;
+    display: flex;
+    background-color: $color-white;
+    
+
+{
+    margin-bottom: 20px;
+}
+
+textarea {
+    border: 0;
+    color: $color-grey;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    outline: 0 none;
+}
+
+}
+}
+
+.top-fixed {
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid $color-light;
+    border-right: 1px solid $color-light;
+    padding: 20px 10px;
+    height: 60px;
+    width: 50%;
+    background-color: $color-white;
+}
+
+/**************************/
+.side-right {
+    width: 30%;
+    border-left: 1px solid $color-light;
+    padding: 10px 5px;
+    right: 0;
+    position: absolute;
+}
+
+.link-home{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.user-img-40{
+   border-radius: 90px;
+   width: 60px;
+}
+
+.collapse navbar-collapse container top-fixed{
+    border-right: dashed;
+}
+
+.btnmr-auto{
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin: 0px;
+    border: none;
+}
+
+.right-col {
+    padding-left: 0;
+    position: sticky;
+}
+
+.content-panel {
+    margin: 10px 0 0;
+    background-color: #fff;
+    line-height: 16px;
+    padding: 15px;
+}
+
+    .content-panel h4 {
+        display: inline-block;
+    }
+
+    .content-panel small {
+        font-size: 66%;
+        margin-left: 6px;
+    }
+
+    .content-panel li {
+        min-height: 70px;
+    }
+
+.btn-follow {
+    border-color: #1DA1F2;
+    color: #1DA1F2;
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 4px 12px;
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    min-width: 89px;
+}
+
+    .btn-follow:hover {
+        background-color: #E8F5FD;
+    }
